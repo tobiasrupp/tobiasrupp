@@ -3,9 +3,9 @@ Tobiasrupp::Application.routes.draw do
   # root 'welcome#index'
   # get "welcome/index"
   get '/' => redirect("http://www.soundcloud.com/tobiasrupp")
-  get '/duo' => redirect("https://soundcloud.com/tobiasrupp/sets/duo-demo")
-  get '/trio' => redirect("https://soundcloud.com/tobiasrupp/sets/trio-demo-1")
-  get '/fawm' => redirect("https://soundcloud.com/tobiasrupp/sets/fawm")
+  get '/duo-demo' => redirect("https://soundcloud.com/tobiasrupp/sets/duo-demo")
+  get '/trio-demo' => redirect("https://soundcloud.com/tobiasrupp/sets/trio-demo-1")
+  get '/fawm-demo' => redirect("https://soundcloud.com/tobiasrupp/sets/fawm")
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=tobiasrupp
 
@@ -20,7 +20,7 @@ group :doc do
 end
 
 # Use debugger
-gem 'debugger', group: [:development, :test]
+# gem 'debugger', group: [:development, :test]
 
 group :production do
   gem 'pg', '0.15.1'
